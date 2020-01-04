@@ -1,0 +1,615 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang4105\deflangfe4105\themelang4105\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f34\fbidi \froman\fcharset1\fprq2{\*\panose 02040503050406030204}Cambria Math;}
+{\f39\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f40\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f41\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f43\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f44\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f45\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f46\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f47\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f48\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f430\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\f431\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}
+{\f433\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f434\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\f435\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\f436\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}
+{\f437\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f438\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhimajor\f31528\fbidi \fswiss\fcharset238\fprq2 Calibri Light CE;}{\fhimajor\f31529\fbidi \fswiss\fcharset204\fprq2 Calibri Light Cyr;}{\fhimajor\f31531\fbidi \fswiss\fcharset161\fprq2 Calibri Light Greek;}
+{\fhimajor\f31532\fbidi \fswiss\fcharset162\fprq2 Calibri Light Tur;}{\fhimajor\f31533\fbidi \fswiss\fcharset177\fprq2 Calibri Light (Hebrew);}{\fhimajor\f31534\fbidi \fswiss\fcharset178\fprq2 Calibri Light (Arabic);}
+{\fhimajor\f31535\fbidi \fswiss\fcharset186\fprq2 Calibri Light Baltic;}{\fhimajor\f31536\fbidi \fswiss\fcharset163\fprq2 Calibri Light (Vietnamese);}{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}
+{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;}{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 
+\ltrch\fcs0 \fs22\lang4105\langfe4105\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp4105\langfenp4105 \snext0 \sqformat \spriority0 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang4105\langfe4105\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp4105\langfenp4105 \snext11 \ssemihidden \sunhideused 
+Normal Table;}}{\*\rsidtbl \rsid4857461}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator Sarmad Khawaja}{\creatim\yr2020\mo1\dy4\hr12\min46}
+{\revtim\yr2020\mo1\dy4\hr12\min50}{\version2}{\edmins4}{\nofpages1}{\nofwords79}{\nofchars452}{\nofcharsws530}{\vern99}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}
+\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot4857461 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang4105\langfe4105\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp4105\langfenp4105 {
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 
+\par }\pard \ltrpar\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 Model 3: OLS, using observations 1-30
+\par \hich\af0\dbch\af31505\loch\f0 Dependent variable: Salary
+\par 
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth1930\clshdrawnil \cellx1900\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx3300\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx4700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx6100\clvertalt\clbrdrt\brdrnone 
+\clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx7500\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth500\clshdrawnil \cellx8000
+\pard \ltrpar\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \ai\af0\afs24 \ltrch\fcs0 \i\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }{\rtlch\fcs1 
+\ai\af0\afs24 \ltrch\fcs0 \i\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 Coefficient}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }{\rtlch\fcs1 \ai\af0\afs24 \ltrch\fcs0 \i\f0\fs24\insrsid13184923 
+\hich\af0\dbch\af31505\loch\f0 Std. Error}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }{\rtlch\fcs1 \ai\af0\afs24 \ltrch\fcs0 \i\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 t-ratio}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13184923 \cell }{\rtlch\fcs1 \ai\af0\afs24 \ltrch\fcs0 \i\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 p-value}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow0\irowband0\ltrrow\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1930\clshdrawnil \cellx1900\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx3300\clvertalt\clbrdrt\brdrnone 
+\clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx4700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx6100
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx7500\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth500\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 const\cell 
+}\pard \ltrpar\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 25792.2\cell \hich\af0\dbch\af31505\loch\f0 2273.05\cell \hich\af0\dbch\af31505\loch\f0 
+11.35\cell \hich\af0\dbch\af31505\loch\f0 <0.0001\cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 ***\cell }\pard \ltrpar
+\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow1\irowband1\ltrrow
+\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1930\clshdrawnil \cellx1900
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx3300\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx4700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx6100\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx7500\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth500\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 YearsExperience\cell }\pard \ltrpar\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 9449.96\cell \hich\af0\dbch\af31505\loch\f0 378.755\cell \hich\af0\dbch\af31505\loch\f0 24.95\cell \hich\af0\dbch\af31505\loch\f0 <0.0001\cell }\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 ***\cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow2\irowband2\lastrow \ltrrow
+\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1930\clshdrawnil \cellx1900
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx3300\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx4700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx6100\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1400\clshdrawnil \cellx7500\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth500\clshdrawnil \cellx8000\row }\pard \ltrpar
+\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt\brdrnone 
+\clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 
+\hich\af0\dbch\af31505\loch\f0 Mean dependent var\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  76003.00\cell }\pard \ltrpar
+\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 S.D. dependent var\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  27414.43
+\cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow0\irowband0\ltrrow
+\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 
+\hich\af0\dbch\af31505\loch\f0 Sum squared resid\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  9.38e+08\cell }\pard \ltrpar
+\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 S.E. of regression\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  5788.315
+\cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow1\irowband1\ltrrow
+\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 
+\hich\af0\dbch\af31505\loch\f0 R-squared\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  0.956957\cell }\pard \ltrpar
+\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 Adjusted R-squared\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  0.955419
+\cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow2\irowband2\ltrrow
+\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 
+\hich\af0\dbch\af31505\loch\f0 F(1, 28)\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  622.5072\cell }\pard \ltrpar
+\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 P-value(F)\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  1.14e-20\cell 
+}\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow3\irowband3\ltrrow
+\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 
+\hich\af0\dbch\af31505\loch\f0 Log-likelihood\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \loch\af0\dbch\af31505\hich\f0 \u8722\'2d}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 301.4412\cell }\pard \ltrpar\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 Akaike criterion\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  606.8823\cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow4\irowband4\ltrrow\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr
+\brdrnone \cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone 
+\clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt
+\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 Schwarz criterion\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0  609.6847
+\cell }\pard \ltrpar\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 Hannan-Quinn\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \hich\af0\dbch\af31505\loch\f0 
+ 607.7788\cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13184923 \trowd \irow5\irowband5\ltrrow
+\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4857461 \cell }\pard \ltrpar
+\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4857461 \cell }\pard \ltrpar\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid4857461 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4857461 \cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4857461 \cell }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4857461 
+\trowd \irow6\irowband6\lastrow \ltrrow\ts11\trqc\trgaph30\trrh262\trleft-30\trftsWidth1\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth2530\clshdrawnil \cellx2500\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx3800\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth400\clshdrawnil \cellx4200\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2500\clshdrawnil \cellx6700\clvertalt\clbrdrt\brdrnone 
+\clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1300\clshdrawnil \cellx8000\row }\pard \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 
+\af31507 \ltrch\fcs0 \insrsid13184923 
+\par }{\rtlch\fcs1 \af31507 \ltrch\fcs0 \insrsid4857461\charrsid4857461 {\*\shppict{\pict{\*\picprop\shplid1025{\sp{\sn shapeType}{\sv 75}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}}
+\picscalex61\picscaley61\piccropl0\piccropr0\piccropt0\piccropb0\picw27002\pich20251\picwgoal15308\pichgoal11481\emfblip\bliptag469203510{\*\blipuid 1bf77a365a83396569ba078faeb3d730}
+01000000640000000000000000000000ff030000ff02000000000000000000007a6900001c4f000020454d46000001008c4f0000060400000400000000000000
+000000000000000000040000000300000e010000c8000000000000000000000000000000110000000c0000000800000009000000100000007a6900001c4f0000
+0b00000010000000ff030000ff020000260000001c0000000100000000220000010000000000000000000000250000000c00000001000000120000000c000000
+01000000270000001800000003000000010000000000000000000000250000000c00000003000000250000000c0000000a000080280000000c00000002000000
+520000004c0100000200000059feffff000000000000000000000000900100000000000100000000760065007200640061006e00610000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000760065007200640061006e00610000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000250000000c00000002000000250000000c0000000a000080280000000c00000002000000520000004c0100000200000059feffff
+000000008403000084030000900100000000000100000000760065007200640061006e0061000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000760065007200640061006e0061000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025000000
+0c00000002000000250000000c0000000a000080280000000c00000002000000520000004c0100000200000059feffff00000000000000000000000090010000
+0000000100000000760065007200640061006e006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000760065007200640061006e006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000250000000c00000002000000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000
+930b00003c48000036000000100000003b0c00003c480000160000000c0000000a0000001b000000100000007f6600003c4800003600000010000000d7650000
+3c480000180000000c0000000000000054000000700000000000000000000000000000000000000001000000c3f5d241c3f5d241950a00004f49000006000000
+4c0000000000000000000000000000000000000000000000000000002000330030003000300030002c0100002c0100002c0100002c0100002c0100002c010000
+250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000
+250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000
+250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000
+1b00000010000000930b00003a41000036000000100000003b0c00003a410000160000000c0000000a0000001b000000100000007f6600003a41000036000000
+10000000d76500003a41000054000000700000000000000000000000000000000000000001000000c3f5d241c3f5d241950a00004d420000060000004c000000
+0000000000000000000000000000000000000000000000002000340030003000300030002c0100002c0100002c0100002c0100002c0100002c01000025000000
+0c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c0000000100000025000000
+0c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c0000000100000025000000
+0c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b000000
+10000000930b0000383a000036000000100000003b0c0000383a0000160000000c0000000a0000001b000000100000007f660000383a00003600000010000000
+d7650000383a000054000000700000000000000000000000000000000000000001000000c3f5d241c3f5d241950a00004b3b0000060000004c00000000000000
+00000000000000000000000000000000000000002000350030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000
+930b00003633000036000000100000003b0c000036330000160000000c0000000a0000001b000000100000007f660000363300003600000010000000d7650000
+3633000054000000700000000000000000000000000000000000000001000000c3f5d241c3f5d241950a000049340000060000004c0000000000000000000000
+000000000000000000000000000000002000360030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b0000
+342c000036000000100000003b0c0000342c0000160000000c0000000a0000001b000000100000007f660000342c00003600000010000000d7650000342c0000
+54000000700000000000000000000000000000000000000001000000c3f5d241c3f5d241950a0000472d0000060000004c000000000000000000000000000000
+0000000000000000000000002000370030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b000032250000
+36000000100000003b0c000032250000160000000c0000000a0000001b000000100000007f660000322500003600000010000000d76500003225000054000000
+700000000000000000000000000000000000000001000000c3f5d241c3f5d241950a000045260000060000004c00000000000000000000000000000000000000
+00000000000000002000380030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b00002f1e000036000000
+100000003b0c00002f1e0000160000000c0000000a0000001b000000100000007f6600002f1e00003600000010000000d76500002f1e00005400000070000000
+0000000000000000000000000000000001000000c3f5d241c3f5d241950a0000421f0000060000004c0000000000000000000000000000000000000000000000
+000000002000390030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b00002d1700003600000010000000
+3b0c00002d170000160000000c0000000a0000001b000000100000007f6600002d1700003600000010000000d76500002d170000540000007800000000000000
+00000000000000000000000001000000c3f5d241c3f5d241950a000040180000070000004c000000000000000000000000000000000000000000000000000000
+200031003000300030003000300000002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b00002b10000036000000
+100000003b0c00002b100000160000000c0000000a0000001b000000100000007f6600002b1000003600000010000000d76500002b1000005400000078000000
+0000000000000000000000000000000001000000c3f5d241c3f5d241950a00003e110000070000004c0000000000000000000000000000000000000000000000
+00000000200031003100300030003000300000002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b000029090000
+36000000100000003b0c000029090000160000000c0000000a0000001b000000100000007f660000290900003600000010000000d76500002909000054000000
+780000000000000000000000000000000000000001000000c3f5d241c3f5d241950a00003c0a0000070000004c00000000000000000000000000000000000000
+0000000000000000200031003200300030003000300000002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b0000
+2702000036000000100000003b0c000027020000160000000c0000000a0000001b000000100000007f660000270200003600000010000000d765000027020000
+54000000780000000000000000000000000000000000000001000000c3f5d241c3f5d241950a00003a030000070000004c000000000000000000000000000000
+000000000000000000000000200031003300300030003000300000002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c000000
+07000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000
+751100003c48000036000000100000007511000094470000160000000c0000000e0000001b000000100000007511000027020000360000001000000075110000
+cf02000054000000700000000000000000000000000000000000000001000000c3f5d241c3f5d24175110000754b0000060000004c0000000000000000000000
+000000000000000000000000000000002000340030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080
+280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000341b0000
+3c4800003600000010000000341b000094470000160000000c0000000e0000001b00000010000000341b0000270200003600000010000000341b0000cf020000
+54000000700000000000000000000000000000000000000001000000c3f5d241c3f5d241341b0000754b0000060000004c000000000000000000000000000000
+0000000000000000000000002000350030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000f42400003c480000
+3600000010000000f424000094470000160000000c0000000e0000001b00000010000000f4240000270200003600000010000000f4240000cf02000054000000
+700000000000000000000000000000000000000001000000c3f5d241c3f5d241f4240000754b0000060000004c00000000000000000000000000000000000000
+00000000000000002000360030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000b32e00003c48000036000000
+10000000b32e000094470000160000000c0000000e0000001b00000010000000b32e0000270200003600000010000000b32e0000cf0200005400000070000000
+0000000000000000000000000000000001000000c3f5d241c3f5d241b32e0000754b0000060000004c0000000000000000000000000000000000000000000000
+000000002000370030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000733800003c4800003600000010000000
+7338000094470000160000000c0000000e0000001b000000100000007338000027020000360000001000000073380000cf020000540000007000000000000000
+00000000000000000000000001000000c3f5d241c3f5d24173380000754b0000060000004c000000000000000000000000000000000000000000000000000000
+2000380030003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c0000000100000026000000
+1c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c0000000100000026000000
+1c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c0000000100000026000000
+1c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000324200003c480000360000001000000032420000
+94470000160000000c0000000e0000001b000000100000003242000027020000360000001000000032420000cf02000054000000700000000000000000000000
+000000000000000001000000c3f5d241c3f5d24132420000754b0000060000004c00000000000000000000000000000000000000000000000000000020003900
+30003000300030002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a0000000000000000000000250000000c000000010000001b00000010000000f24b00003c4800003600000010000000f24b000094470000
+160000000c0000000e0000001b00000010000000f24b0000270200003600000010000000f24b0000cf0200005400000078000000000000000000000000000000
+0000000001000000c3f5d241c3f5d241f24b0000754b0000070000004c0000000000000000000000000000000000000000000000000000002000310030003000
+30003000300000002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c0000000100000026000000
+1c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c0000000100000026000000
+1c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c0000000100000026000000
+1c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000b15500003c4800003600000010000000b1550000
+94470000160000000c0000000e0000001b00000010000000b1550000270200003600000010000000b1550000cf02000054000000780000000000000000000000
+000000000000000001000000c3f5d241c3f5d241b1550000754b0000070000004c00000000000000000000000000000000000000000000000000000020003100
+3100300030003000300000002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000
+260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000715f00003c4800003600000010000000
+715f000094470000160000000c0000000e0000001b00000010000000715f0000270200003600000010000000715f0000cf020000540000007800000000000000
+00000000000000000000000001000000c3f5d241c3f5d241715f0000754b0000070000004c000000000000000000000000000000000000000000000000000000
+200031003200300030003000300000002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c000000
+01000000260000001c00000001000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b00002702000036000000
+10000000930b00003c48000036000000100000007f6600003c48000036000000100000007f660000270200003600000010000000930b00002702000025000000
+0c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c0000000100000025000000
+0c00000007000080280000000c00000001000000260000001c00000001000000002200001a0000000000000000000000250000000c0000000100000025000000
+0c0000000a000080280000000c00000002000000520000004c0100000200000059feffff00000000840300008403000090010000000000010000000076006500
+7200640061006e006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000076006500
+7200640061006e006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000250000000c00000002000000160000000c0000000e0000005400000070000000
+0000000000000000000000000000000001000000c3f5d241c3f5d2419002000032250000060000004c0000000000000000000000000000000000000000000000
+00000000530061006c006100720079002c0100002c0100002c0100002c0100002c0100002c010000250000000c0000000a000080280000000c00000002000000
+520000004c0100000200000059feffff000000000000000000000000900100000000000100000000760065007200640061006e00610000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000760065007200640061006e00610000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000250000000c00000002000000250000000c00000007000080280000000c00000001000000260000001c0000000100000000220000
+1a0000000000000000000000250000000c00000001000000160000000c0000000e00000054000000ac0000000000000000000000000000000000000001000000
+c3f5d241c3f5d24109390000ae4e0000100000004c00000000000000000000000000000000000000000000000000000070007200650064006900630074006500
+64002000530061006c006100720079002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c010000
+2c0100002c0100002c0100002c010000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000bd0d0000b04100003600000010000000be0d0000b04100001b00000010000000150d0000b0410000
+3600000010000000650e0000b0410000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000bd0d0000584200003600000010000000bd0d000008410000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000950f0000e13c0000
+3600000010000000960f0000e13c00001b00000010000000ed0e0000e13c000036000000100000003d100000e13c0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000950f0000893d0000
+3600000010000000950f0000393c0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000006c110000d142000036000000100000006d110000d14200001b00000010000000c4100000d1420000
+360000001000000014120000d1420000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000006c1100007943000036000000100000006c11000029420000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b0000001000000008160000c13e0000
+360000001000000009160000c13e00001b0000001000000060150000c13e00003600000010000000b0160000c13e0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b0000001000000008160000693f0000
+360000001000000008160000193e0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000df1700004d4100003600000010000000e01700004d4100001b00000010000000371700004d410000
+3600000010000000871800004d410000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000df170000f54100003600000010000000df170000a5400000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000521e000090350000
+3600000010000000531e0000903500001b00000010000000aa1d0000903500003600000010000000fa1e000090350000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000521e000038360000
+3600000010000000521e0000e8340000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000003e1f00001b33000036000000100000003f1f00001b3300001b00000010000000961e00001b330000
+3600000010000000e61f00001b330000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000003e1f0000c333000036000000100000003e1f000073320000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000162100001a370000
+3600000010000000172100001a3700001b000000100000006e2000001a3700003600000010000000be2100001a370000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b0000001000000016210000c2370000
+36000000100000001621000072360000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000001621000018300000360000001000000017210000183000001b000000100000006e20000018300000
+3600000010000000be21000018300000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b0000001000000016210000c0300000360000001000000016210000702f0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000b12500002e350000
+3600000010000000b22500002e3500001b00000010000000092500002e3500003600000010000000592600002e350000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000b1250000d6350000
+3600000010000000b125000086340000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b0000001000000088270000f4300000360000001000000089270000f43000001b00000010000000e0260000f4300000
+360000001000000030280000f4300000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000882700009c3100003600000010000000882700004c300000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000007428000028360000
+360000001000000075280000283600001b00000010000000cc2700002836000036000000100000001c29000028360000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b0000001000000074280000d0360000
+36000000100000007428000080350000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000007428000058350000360000001000000075280000583500001b00000010000000cc27000058350000
+36000000100000001c29000058350000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000007428000000360000360000001000000074280000b0340000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000006029000041350000
+360000001000000061290000413500001b00000010000000b8280000413500003600000010000000082a000041350000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b0000001000000060290000e9350000
+36000000100000006029000099340000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000000f2d00006e3200003600000010000000102d00006e3200001b00000010000000672c00006e320000
+3600000010000000b72d00006e320000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000000f2d00001633000036000000100000000f2d0000c6310000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000bf300000a62d0000
+3600000010000000c0300000a62d00001b0000001000000017300000a62d0000360000001000000067310000a62d0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000bf3000004e2e0000
+3600000010000000bf300000fe2c0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b0000001000000096320000fc2e0000360000001000000097320000fc2e00001b00000010000000ee310000fc2e0000
+36000000100000003e330000fc2e0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b0000001000000096320000a42f0000360000001000000096320000542e0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000006e34000007230000
+36000000100000006f340000072300001b00000010000000c63300000723000036000000100000001635000007230000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000006e340000af230000
+36000000100000006e3400005f220000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000f53900003d2400003600000010000000f63900003d2400001b000000100000004d3900003d240000
+36000000100000009d3a00003d240000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000f5390000e52400003600000010000000f539000095230000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000e13a00006d1b0000
+3600000010000000e23a00006d1b00001b00000010000000393a00006d1b00003600000010000000893b00006d1b0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000e13a0000151c0000
+3600000010000000e13a0000c51a0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000003f420000f81c0000360000001000000040420000f81c00001b0000001000000097410000f81c0000
+3600000010000000e7420000f81c0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000003f420000a01d000036000000100000003f420000501c0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000000345000063180000
+360000001000000004450000631800001b000000100000005b440000631800003600000010000000ab45000063180000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000034500000b190000
+360000001000000003450000bb170000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000614c0000441600003600000010000000624c0000441600001b00000010000000b94b000044160000
+3600000010000000094d000044160000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000614c0000ec1600003600000010000000614c00009c150000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000254f00007f0d0000
+3600000010000000264f00007f0d00001b000000100000007d4e00007f0d00003600000010000000cd4f00007f0d0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b00000010000000254f0000270e0000
+3600000010000000254f0000d70c0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000c0530000911000003600000010000000c1530000911000001b000000100000001853000091100000
+36000000100000006854000091100000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b00000010000000c0530000391100003600000010000000c0530000e90f0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000008356000044130000
+360000001000000084560000441300001b00000010000000db5500004413000036000000100000002b57000044130000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b0000001000000083560000ec130000
+3600000010000000835600009c120000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000001f5b0000490b00003600000010000000205b0000490b00001b00000010000000775a0000490b0000
+3600000010000000c75b0000490b0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000001f5b0000f10b000036000000100000001f5b0000a10a0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000000a5c0000520e0000
+36000000100000000b5c0000520e00001b00000010000000625b0000520e00003600000010000000b25c0000520e0000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000000a5c0000fa0e0000
+36000000100000000a5c0000aa0d0000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000007d6200007c07000036000000100000007e6200007c0700001b00000010000000d56100007c070000
+3600000010000000256300007c070000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+ff000000250000000c000000010000001b000000100000007d6200002408000036000000100000007d620000d4060000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b0000001000000055640000d9070000
+360000001000000056640000d90700001b00000010000000ad630000d90700003600000010000000fd640000d9070000250000000c0000000700008028000000
+0c00000001000000260000001c00000001000000002200001a00000000000000ff000000250000000c000000010000001b000000100000005564000081080000
+36000000100000005564000031070000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c00000001000000160000000c0000000a000000160000000c0000000a00000054000000b800000000000000000000000000000000000000
+01000000c3f5d241c3f5d2416d1e0000f5040000120000004c000000000000000000000000000000000000000000000000000000610063007400750061006c00
+20003d0020007000720065006400690063007400650064002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c010000
+2c0100002c0100002c0100002c0100002c0100002c0100002c0100002c010000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a000000000000000000ff00250000000c000000010000001b000000100000006b1f0000e203000036000000100000000b240000e2030000
+1b00000010000000930b00007445000036000000100000007e0c0000cb4400003600000010000000690d0000224400003600000010000000540e000079430000
+36000000100000003f0f0000d042000036000000100000002b100000274200003600000010000000161100007e410000360000001000000001120000d5400000
+3600000010000000ec1200002c4000003600000010000000d7130000833f00003600000010000000c2140000da3e00003600000010000000ad150000313e0000
+360000001000000098160000883d0000360000001000000083170000df3c000036000000100000006f180000363c000036000000100000005a1900008d3b0000
+3600000010000000451a0000e43a00003600000010000000301b00003b3a000036000000100000001b1c0000923900003600000010000000061d0000e9380000
+3600000010000000f11d0000403800003600000010000000dc1e0000973700003600000010000000c71f0000ee3600003600000010000000b320000045360000
+36000000100000009e2100009c350000360000001000000089220000f33400003600000010000000742300004a34000036000000100000005f240000a1330000
+36000000100000004a250000f83200003600000010000000352600004f320000360000001000000020270000a631000036000000100000000b280000fd300000
+3600000010000000f7280000533000003600000010000000e2290000aa2f00003600000010000000cd2a0000012f00003600000010000000b82b0000582e0000
+3600000010000000a32c0000af2d000036000000100000008e2d0000062d00003600000010000000792e00005d2c00003600000010000000642f0000b42b0000
+36000000100000004f3000000b2b000036000000100000003b310000622a0000360000001000000026320000b929000036000000100000001133000010290000
+3600000010000000fc330000672800003600000010000000e7340000be2700003600000010000000d2350000152700003600000010000000bd3600006c260000
+3600000010000000a8370000c32500003600000010000000933800001a25000036000000100000007f3900007124000036000000100000006a3a0000c8230000
+1b000000100000006a3a0000c82300003600000010000000553b00001f2300003600000010000000403c00007622000036000000100000002b3d0000cd210000
+3600000010000000163e0000242100003600000010000000013f00007b2000003600000010000000ec3f0000d21f00003600000010000000d7400000291f0000
+3600000010000000c3410000801e00003600000010000000ae420000d71d00003600000010000000994300002e1d0000360000001000000084440000851c0000
+36000000100000006f450000dc1b000036000000100000005a460000331b00003600000010000000454700008a1a0000360000001000000030480000e1190000
+36000000100000001b490000381900003600000010000000074a00008e1800003600000010000000f24a0000e51700003600000010000000dd4b00003c170000
+3600000010000000c84c0000931600003600000010000000b34d0000ea15000036000000100000009e4e0000411500003600000010000000894f000098140000
+360000001000000074500000ef13000036000000100000005f5100004613000036000000100000004b5200009d120000360000001000000036530000f4110000
+3600000010000000215400004b11000036000000100000000c550000a21000003600000010000000f7550000f90f00003600000010000000e2560000500f0000
+3600000010000000cd570000a70e00003600000010000000b8580000fe0d00003600000010000000a3590000550d000036000000100000008f5a0000ac0c0000
+36000000100000007a5b0000030c00003600000010000000655c00005a0b00003600000010000000505d0000b10a000036000000100000003b5e0000080a0000
+3600000010000000265f00005f090000360000001000000011600000b60800003600000010000000fc6000000d0800003600000010000000e761000064070000
+3600000010000000d3620000bb0600003600000010000000be630000120600003600000010000000a964000069050000360000001000000094650000c0040000
+36000000100000007f66000017040000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200003400000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200003400000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c00000001000000002200001a00000000000000
+00000000250000000c000000010000001b00000010000000930b0000270200003600000010000000930b00003c48000036000000100000007f6600003c480000
+36000000100000007f660000270200003600000010000000930b000027020000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a0000000000000000000000250000000c00000001000000250000000c00000007000080280000000c00000001000000260000001c000000
+01000000002200001a0000000000000000000000250000000c000000010000001b00000010000000930b000027020000250000000c0000000a00008028000000
+0c00000002000000250000000c00000007000080280000000c00000001000000250000000c00000000000080280000000c000000030000000e00000014000000000000001000000014000000}}{\nonshppict{\pict\picscalex61\picscaley61\piccropl0\piccropr0\piccropt0\piccropb0
+\picw27002\pich20251\picwgoal15308\pichgoal11481\wmetafile8\bliptag469203510\blipupi96{\*\blipuid 1bf77a365a83396569ba078faeb3d730}}}}{\rtlch\fcs1 \af31507 \ltrch\fcs0 \insrsid4857461 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b03041400060008000000210007b740aaca0600008f1a0000160000007468656d652f7468656d652f
+7468656d65312e786d6cec595b8bdb46147e2ff43f08bd3bbe49be2cf1065bb69336bb49889d943cceda636bb2238dd18c776342a0244f7d2914d2d28706fad6
+87521a68a0a12ffd310b1bdaf447f4cc489667ec71f6420aa1640d8b34face996fce39face48ba7aed51449d239c70c2e2965bbe52721d1c8fd898c4d3967b6f
+d82f345c870b148f1165316eb90bccdd6bbb9f7e7215ed881047d801fb98efa0961b0a31db2916f9088611bfc26638866b13964448c069322d8e13740c7e235a
+ac944ab5628448ec3a318ac0ededc9848cb033942edddda5f31e85d358703930a2c940bac68685c28e0fcb12c1173ca089738468cb8579c6ec78881f09d7a188
+0bb8d0724beacf2dee5e2da29dcc888a2db69a5d5ffd657699c1f8b0a2e64ca607f9a49ee77bb576ee5f01a8d8c4f5eabd5aaf96fb5300341ac14a532eba4fbf
+d3ec74fd0cab81d2438bef6ebd5b2d1b78cd7f758373db973f03af40a97f6f03dfef07104503af4029dedfc07b5ebd1278065e81527c6d035f2fb5bb5eddc02b
+5048497cb8812ef9b56ab05c6d0e99307ac30a6ffa5ebf5ec99caf50500d7975c929262c16db6a2d420f59d2078004522448ec88c50c4fd008aa3840941c24c4
+d923d3100a6f8662c661b85429f54b55f82f7f9e3a5211413b1869d6921730e11b43928fc34709998996fb39787535c8e9ebd7274f5f9d3cfdfde4d9b393a7bf
+66732b5786dd0d144f75bbb73f7df3cf8b2f9dbf7ffbf1edf36fd3a9d7f15cc7bff9e5ab377ffcf92ef7b0e255284ebf7bf9e6d5cbd3efbffeebe7e716efed04
+1de8f0218930776ee163e72e8b608116fef820b998c5304444b768c7538e622467b1f8ef89d040df5a208a2cb80e36e3783f01a9b101afcf1f1a8407613217c4
+e2f1661819c07dc6688725d628dc947369611ecee3a97df264aee3ee2274649b3b40b191e5de7c061a4b6c2e83101b34ef50140b34c531168ebcc60e31b6acee
+0121465cf7c928619c4d84f380381d44ac21199203a39a56463748047959d80842be8dd8ecdf773a8cda56ddc5472612ee0d442de487981a61bc8ee602453697
+4314513de07b48843692834532d2713d2e20d3534c99d31b63ce6d36b71358af96f49b2033f6b4efd345642213410e6d3ef710633ab2cb0e831045331b7640e2
+50c77ec60fa144917387091b7c9f9977883c873ca0786bbaef136ca4fb6c35b8070aab535a1588bc324f2cb9bc8e9951bf83059d20aca4061a80a1eb1189cf14
+f93579f7ff3b7907113dfde1856545ef47d2ed8e8d7c5c50ccdb09b1de4d37d6247c1b6e5db803968cc987afdb5d348fef60b855369bd747d9fe28dbeeff5eb6
+b7ddcfef5fac57fa0cd22db7ade9765d6ddea3ad7bf709a174201614ef71b57de7d095c67d189476eab915e7cf72b3100ee59d0c1318b86982948d9330f10511
+e1204433d8e3975de964ca33d753eecc1887adbf1ab6fa96783a8ff6d9387d642d97e5e3692a1e1c89d578c9cfc7e17143a4e85a7df51896bb576ca7ea717949
+40da5e8484369949a26a21515f0eca20a98773089a85845ad97b61d1b4b06848f7cb546db0006a795660dbe4c066abe5fa1e9880113c55218ac7324f69aa97d9
+55c97c9f99de164ca302600fb1ac8055a69b92ebd6e5c9d5a5a5768e4c1b24b4723349a8c8a81ec64334c65975cad1f3d0b868ae9bab941af46428d47c505a2b
+1af5c6bb585c36d760b7ae0d34d69582c6ce71cbad557d2899119ab5dc093cfac3613483dae172bb8be814de9f8d4492def097519659c24517f1300db8129d54
+0d222270e25012b55cb9fc3c0d34561aa2b8952b20081f2cb926c8ca87460e926e26194f267824f4b46b2332d2e929287caa15d6abcafcf26069c9e690ee4138
+3e760ee83cb98ba0c4fc7a5906704c38bc012aa7d11c1378a5990bd9aafed61a5326bbfa3b455543e938a2b310651d4517f314aea43ca7a3cef2186867d99a21
+a05a48b2467830950d560faad14df3ae9172d8da75cf369291d34473d5330d55915dd3ae62c60ccb36b016cbcb35798dd532c4a0697a874fa57b5d729b4bad5b
+db27e45d02029ec7cfd275cfd110346aabc90c6a92f1a60c4bcdce46cddeb15ce019d4ced32434d5af2dddaec52def11d6e960f0529d1fecd6ab168626cb7da5
+8ab4faf6a17f9e60070f413cbaf022784e0557a9848f0f09820dd140ed4952d9805be491c86e0d3872e60969b98f4b7edb0b2a7e502835fc5ec1ab7aa542c36f
+570b6ddfaf967b7eb9d4ed549e4063116154f6d3ef2e7d780d4517d9d71735bef105265abe69bb32625191a92f2c45455c7d812957b67f81710888cee35aa5df
+ac363bb542b3daee17bc6ea7516806b54ea15b0beadd7e37f01bcdfe13d7395260af5d0dbc5aaf51a89583a0e0d54a927ea359a87b954adbabb71b3daffd24db
+c6c0ca53f9c86201e155bc76ff050000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468656d652f7468656d652f5f72
+656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d363f2451eced0dae2c08
+2e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e3198720e274a939cd0
+8a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe514173d9850528a2c6cce0239baa
+4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c0200001300000000000000000000000000000000005b436f
+6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00000000000000000000000000300100005f72
+656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c00000000000000000000000000190200007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c504b01022d001400060008000000210007b740aaca0600008f1a00001600000000000000000000000000d60200
+007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b01000027000000000000000000000000
+00d40900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000cf0a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax371\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 9;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 header;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footer;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index heading;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of figures;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope return;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 line number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 page number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of authorities;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 toa heading;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Closing;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Signature;\lsdsemihidden1 \lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Salutation;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Date;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Note Heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Block Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 FollowedHyperlink;\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Document Map;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Plain Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 E-mail Signature;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Table;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Contemporary;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Elegant;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Professional;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Theme;\lsdsemihidden1 \lsdlocked0 Placeholder Text;
+\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;
+\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;
+\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdpriority61 \lsdlocked0 Light List Accent 1;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdsemihidden1 \lsdlocked0 Revision;
+\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;
+\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdpriority72 \lsdlocked0 Colorful List Accent 1;
+\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;
+\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;
+\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;
+\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;
+\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;}}{\*\datastore 010500000200000018000000
+4d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000070bf
+b27427c3d501feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
