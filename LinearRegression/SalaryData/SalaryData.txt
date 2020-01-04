@@ -1,0 +1,22 @@
+Salary Data
+
+Description:
+
+The dataset "SalaryData.csv" has information on employees' experience in years and their salary.
+
+Objective:
+
+While the relationship between one's experience and salary is quiet obvious, the objective of this project is to demonstrate linear regression by showing this relationship via a straight line. More specifically this isan example of Simple Linear Regression where the effect of ONLY ONE independent variable (Experience in this cae) on the dependent variable (Salary in this case) is analyzed.
+
+Perform the following steps to get the results in the attached file SalaryVsExperience.csv file:
+
+Step 1: Connect the dataset to Gretl by clicking File>Open Data>User File.
+
+Step 2: Click Model>Ordinary Least Squares
+
+Step 3: Select Salary and move to 'Dependent variable' field; Select YearsExperience and move to Regressors field; Press OK. Save as csv file.
+
+
+
+ 
+

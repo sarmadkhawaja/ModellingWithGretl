@@ -1,0 +1,14 @@
+"Model 2: OLS, using observations 1-30"
+"Dependent variable: Salary"
+
+,"coefficient","std. error","t-ratio","p-value"
+"const",25792.2001986687,2273.0534325816,11.3469396842886,5.51195027095611e-012
+"YearsExperience",9449.96232145508,378.754574238821,24.9500942409648,1.14306810922714e-020
+
+"Mean dependent var",76003,"S.D. dependent var",27414.4297845823
+"Sum squared resid",938128551.668429,"S.E. of regression",5788.31505111939
+"R-squared",0.956956664143509,"Adjusted R-squared",0.955419402148634
+"F(1, 28)",622.507202633024,"P-value(F)",1.14306810922713e-020
+"Log-likelihood",-301.441158465216,"Akaike criterion",606.882316930432
+"Schwarz criterion",609.684711693756,"Hannan-Quinn",607.778827093238
+
