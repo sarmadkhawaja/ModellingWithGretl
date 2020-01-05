@@ -1,0 +1,35 @@
+50 Startups
+
+Description:
+
+The dataset "50-Startups.csv" contains information on spendings in 3 areas - R&D, Administration and Marketing - by 50 start ups operating from either New York or California. The last columns shows Profit earned by the startups. 
+
+Objective:
+
+A venture capitalist fund wants to find out based on the data for 50 startups what type of companies it should invest in i.e. in general which of the 3 areas of spending and which of the 2 regions yeilds most profit. The linear regression in this case models the relationship of the dependent variable Profit with multiple (in this case 4) variables hence called multilinear regression.
+
+
+Perform the following steps in order to get the results in 50-Startups.pptx:
+Note: We will use Backward Elimination method for our Linear Regression model.
+
+Step 1: Connect the dataset to Gretl by clicking File>Open Data>User File.
+
+Step 2: Since this is a mathematical model, we need to have mathematical values for the State column so we create the dummy variables. 
+	a) From the top menu click Add>Dummies for discrete variable.
+	b) Choose State as the variable to dummify and select Encode all values. This creates 2 dummy variables under State: DState_1 for 'New York' and DState_2 for 'California' on the main page
+	c) To change these names to descriptive names, right click the dummy variable names and click Edit Attributes and put the names in the Name field (in this case we put NewYork for New York 	and California for California)
+
+Step 3: Use Backward Elimination method:
+	a) Choose significance level to be 0.05.
+	b) Fit the model with all candidate variables: From the top menu click Model>Ordinary Least Squares. Use Profit as Dependent variable and check 'Set as default'. Use RDSpend, 		Administration, MarketingSpend and one of two dummy variables (in this case NewYork) as regressors. Click OK.
+	c) For the variable with highest p-value on the model:
+		if p>0.05:
+			Delete the variable. Proceed to d)
+		else:
+			Your model is ready.
+	d) Create a model with the remaining variables.
+
+Running Step 3 itereatively we first delete the variable Administration (p=0.6509) and recreate our model without it. Next, we remove NewYork (p=0.5775) followed by MarketingSpend (p=0.06). We are left with only one variable i.e. RDSpend (p<0.0001). Therefore, the resulting model is our final model. This and all the preceding models from our itereative process can be found in the attached powerpoint.
+
+
+
