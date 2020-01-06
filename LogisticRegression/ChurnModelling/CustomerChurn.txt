@@ -1,0 +1,46 @@
+Churn Modelling
+
+Description:
+
+The dataset represents information for a sample of 10000 customers of a bank. Each row in the dataset has info for each customer and the last column 'Exited' has a value 0 (customer did not exit the bank) or 1 (customer exited the bank). The dataset contains the following columns:
+
+CusotmerId - The ID of each customer assigned by the bank
+Surname - Last name of customer
+CreditScore - The customer's credit score
+Geography - The location of the the customer
+Age - Age of customer
+Tenure - Number of years for which the customer had an account with the bank before the data was gathered 
+Balance - Balance of each customer by the time data was gathered
+NumOfProducts - Number of products the customer has/had with the bank
+HasCrCard - 1 means the customer has/had credit card with the bank at the time of gathering data; 0 means they did not have credit card
+IsActiveMember - 1 means the customer has (0 means has not) used bank's services/products in the 6 months prior to gathering the data
+EstimatedSalary - The salary of the customer estimated by the bank at the time of gathering data Exited: 0 means the customer did not exit the bank; 1 means the customer did exit the bank 
+
+Objective:
+
+A bank wants to find out based on the geodemographic data for 10000 customers which group of customers it needs to target in order to lower the churn rate in the future. Since our outcome is binary 1 (customer exits) or 0 (customer does not exit), we use Logistic Regression to model our data.
+
+Perform the following steps in order to get the results in CustomerChurn.pptx:
+Note: We will use Backward Elimination method for our Logistic Regression model.
+
+Step 1: Connect the dataset to Gretl by clicking File>Open Data>User File.
+
+Step 2: Since this is a mathematical model, we need to have numerical values for the Geography and Gender columns so we create the dummy variables. For each cof the 2 columns:
+	a) From the top menu click Add>Dummies for discrete variable.
+	b) Choose the variable to dummify and select Encode all values. This creates dummy variables under the column name on the main sheet.
+	c) To change these dummy variable names to descriptive names, right click the dummy variable names and click Edit Attributes and put the names in the Name field (in this case we have 	used 		France, Germany, Spain for Geography; Male, Female for Gender)
+
+Step 3: Use Backward Elimination method:
+	a) Choose significance level to be 0.05.
+	b) Fit the model with all candidate variables: From the top menu click Model>Limited dependent variable>Logit>Binary. Use Exited as Dependent variable and check 'Set as default'. Ignore the 	first 3 columns RowNumber, CutomerId and Surname as they clearly won't have any effect; add CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember and Estimated Salary 	as Regressors; add the dummy variables Spain and Germany for Georgrpahy and Female for Gender as Regressors. Make sure 	to select 'Show p-values' option. Click OK.
+	c) For the variable with highest p-value on the model:
+		if p>0.05:
+			Delete the variable. Proceed to d)
+		else:
+			Your model is ready.
+	d) Create a model with the remaining variables.
+
+Running Step 3 itereatively we first delete the variable Spain (p=0.6181) and recreate our model without it. Next, we remove HasCrCard (p=0.4489), then EstimatedSalary (p=0.3091), then Tenure (p=0.0873). All the remaining variables have p<0.05. Therefore, after removing Tenure, the resulting model is our final model. This and all the preceding models from our itereative process can be found in the attached powerpoint.
+
+
+
